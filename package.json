@@ -8,8 +8,12 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-photo-album": "^1.15.0",
+    "react-router-dom": "^6.4.0-pre.8",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "typed.js": "^2.0.12",
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^1.9.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,7 +24,11 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "plugin:prettier/recommended",
+      "prettier",
+      "airbnb",
+      "airbnb/hooks"
     ]
   },
   "browserslist": {
@@ -34,5 +42,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }
