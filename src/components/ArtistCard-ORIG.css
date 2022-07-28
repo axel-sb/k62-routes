@@ -1,0 +1,167 @@
+/* #region CARDS ……………………………………..  */
+.cards {
+  display        : flex;
+  align-items    : center;
+  flex-wrap      : wrap;
+  justify-content: center;
+  width          : 100%;
+}
+
+.card {
+  display              : grid;
+  flex-wrap            : wrap;
+  gap                  : 9rem;
+  grid-template-columns: 50% 50%;
+  grid-template-rows   : 37rem;
+  height               : 37rem;
+  margin               : 12rem 0;
+  width                : 100%;
+}
+
+.card:hover .card-left {
+  background: none;
+  transform : rotate(0deg) translate(0px, 0rem);
+  transition: transform 0.3s ease-in-out;
+}
+
+/*%  .................... CARD - LEFT ...........................*/
+.card-left {
+  display        : flex;
+  align-content  : space-around;
+  align-items    : center;
+  background     : linear-gradient(254deg, transparent, rgb(0 0 0 / 4%));
+  color          : var(--signature-color);
+  flex-wrap      : wrap;
+  font-family    : Oswald;
+  font-size      : 6rem;
+  height         : 20rem;
+  justify-content: flex-end;
+  letter-spacing : 0rem;
+  line-height    : .9;
+  margin         : 0rem 0 0 -100%;
+  text-align     : right;
+  transform      : translate(0px, 5rem);
+  width          : 100vw;
+  will-change    : transform;
+
+}
+
+.card-left>a {
+  color                       : inherit;
+  font-weight                 : 200;
+  /* text-decoration          : none!important; */
+  /* text-decoration-color    : #00000080 !important;
+  transition                  : text-decoration 500ms 50ms;
+  text-decoration             : underline;
+  text-decoration-style       : solid;
+  text-decoration-thickness   : 2.5rem;
+  text-underline-offset       : -1rem; */
+  letter-spacing              : .1rem;
+  transform                   : rotate(-10deg);
+}
+
+.card-left>a:hover {
+  border-bottom  : 2.5rem solid #00000080;
+  /*text-deco-col only works on link element*/
+  text-decoration: none !important;
+  transform      : rotate(0deg) translate(0px, -2rem);
+  transition     : transform 1s;
+}
+
+.card-left::after {
+  position  : fixed;
+  top       : 0%;
+  left      : 51%;
+  background: #00000024;
+  content   : '';
+  height    : 80%;
+  opacity   : 0.2;
+  transform : rotate(-10deg) translate(-52em, 5rem);
+  width     : 50%;
+  z-index   : -1;
+}
+
+.card-left:hover::after {
+  transform : rotate(0deg);
+  transition: transform 1s;
+}
+
+/*%  ......................................................*/
+/*  .................... TEXT ............................*/
+h3 {
+  font-style     : italic;
+  font-size      : inherit;
+  font-weight    : 700;
+  line-height    : .95;
+  margin         : 0;
+  text-align     : right;
+  text-decoration: none !important;
+  transition     : 1s;
+}
+
+.card:hover h3 {
+  
+  font-size     : 9rem;
+  font-weight   : 100;
+  letter-spacing: 1rem;
+  line-height   : .5;
+  padding-bottom: 5rem;
+
+}
+
+h3 div {
+  font-weight    : 100;
+  text-decoration: none;
+  transition     : 1.2s;
+}
+
+.card:hover h3 div {
+  font-family    : 'Anybody';
+  font-weight    : 100;
+  line-height    : 1;
+  text-decoration: none;
+}
+
+/*  .................... TEXT ..........................*/
+/*^  ............... CARD - RIGHT ......................*/
+
+.card-right {
+  display        : flex;
+  height         : 20rem;
+  justify-content: flex-start;
+  z-index        : -1;
+}
+
+.card-right::after {
+  position   : absolute;
+  align-items: center;
+  background : linear-gradient(121deg, transparent, #8a8a8a33);
+  content    : '';
+  height     : 27rem;
+  opacity    : 0.3;
+  width      : 200rem;
+}
+
+div.card-right>img {
+  border-radius: 0.5rem;
+  box-shadow   : 8.5px 8.5px 10px rgb(0 0 0 / 5%),
+    14px 14px 18px rgb(0 0 0 / 4%), 30px 30px 33px rgb(0 0 0 / 3%),
+    60px 60px 80px rgb(0 0 0 / 2%);
+  height    : 27rem;
+  object-fit: cover;
+  padding   : 0.1rem;
+  transition: all 1s 1s;
+  width     : 20rem;
+  z-index   : 1;
+}
+
+.card:hover div.card-right>img {
+  box-shadow: 12.5px 12.5px 10px rgb(0 0 0 / 7%),
+    22.3px 22.3px 17.9px rgb(0 0 0 / 6%), 41.8px 41.8px 33.4px rgb(0 0 0 / 5%),
+    100px 100px 80px rgb(0 0 0 / 4%);
+  perspective: 1px;
+  scale      : 1.1;
+  transform  : translate(0px, -2.7rem);
+}
+
+/* #endregion  …………………………….. */

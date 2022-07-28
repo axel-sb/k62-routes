@@ -40,6 +40,6 @@ const slides_CBE = photos_CBE.map(
   })
 )
 
-console.log(slides_UUR, slides_SST, slides_CBE)
+console.table(slides_SST, slides_UUR, slides_CBE)
 
 export { slides_UUR, slides_SST, slides_CBE }

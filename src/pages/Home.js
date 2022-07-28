@@ -1,8 +1,9 @@
 import data from '../data/artistData'
 import ArtistCard from '../components/ArtistCard'
 import Header from '../components/Header'
+import '../App.css'
 
-function K62() {
+function Home() {
   return (
     <>
       <Header />
@@ -24,4 +25,4 @@ function K62() {
   )
 }
 
-export default K62
+export default Home

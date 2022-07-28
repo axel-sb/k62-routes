@@ -2,6 +2,7 @@ import React from 'react'
 import Typed from 'typed.js'
 import logo from '../logo.svg'
 import Slogan from './Slogan'
+import './Header.css'
 
 function Header() {
   // Create reference to store the DOM element containing the animation

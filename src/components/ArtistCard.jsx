@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import './ArtistCard.css'
 
 export default function ArtistCard({
   firstName,
@@ -8,15 +9,17 @@ export default function ArtistCard({
   artistPage,
 }) {
   return (
-    <a href={artistPage} className="card" category={category}>
+    <div className="card">
       <div className="card-left">
-        <div>
-          {firstName} <br /> {lastName}
-        </div>
+        <a href={artistPage} category={category}>
+          <h3>
+            <div>{firstName}</div> {lastName}
+          </h3>
+        </a>
       </div>
       <div className="card-right shadow">
         <img src={cardImage} alt="" />
       </div>
-    </a>
-  );
+    </div>
+  )
 }

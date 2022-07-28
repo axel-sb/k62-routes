@@ -1,0 +1,61 @@
+/* #region HEADER …………………………….. */
+h1 {
+    color      : #090f14;
+    font-family: 'TravelingTypewriter';
+    font-size  : 15rem;
+    font-weight: 400;
+    margin     : 15rem auto;
+    text-align : center;
+    text-shadow: 1px 1px 0.1rem #3335, 2px 2px 0.3rem #5558;
+}
+
+.type-wrap {
+    animation  : slogan 5s 5s linear forwards;
+    color      : #333;
+    font-family: 'TravelingTypewriter';
+    font-size  : 3.2rem;
+    margin     : -9rem auto 17rem;
+    text-align : center;
+    text-shadow: 1px 1px 0.1rem #222, 2px 2px 0.3rem #555;
+}
+
+h2 {
+    animation    : sloganend 5s 10s linear forwards;
+    color        : #0000009e;
+    font-family  : 'TravelingTypewriter';
+    font-size    : 2rem;
+    margin-bottom: 9rem;
+    margin-top   : -23rem;
+    opacity      : 0;
+    text-align   : center;
+    text-shadow  : 1px 1px 1px #000000ba;
+}
+
+header>img {
+    display: block;
+    margin : 8rem auto 12rem;
+    width  : 40%;
+}
+
+/*- Animation............................................ */
+@keyframes slogan {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes sloganend {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.7;
+    }
+}
+
+/* #endregion  …………………………….. */
