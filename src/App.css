@@ -126,6 +126,9 @@ body::-webkit-scrollbar {
   transition: transform 0.6s cubic-bezier(0.7, 0, 0.84, 0);
 }
 
+/* .placeholder {
+  flex-grow: 1;
+} */
 
 /*^  ....................................................*/
 /* #region >-—————————<<@keyframes>>————————————- */
@@ -164,14 +167,6 @@ body::-webkit-scrollbar {
   }
 }
 
-.react-photo-album {
-  margin   : 0 auto;
-  max-width: 30vw;
-}
-
-.placeholder {
-  flex-grow: 1;
-}
 
 /* .react-photo-album--row>img+img {
   display: inline-block;

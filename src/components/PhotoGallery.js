@@ -8,6 +8,7 @@
 import * as React from 'react'
 import PhotoAlbum from 'react-photo-album'
 import Lightbox from 'yet-another-react-lightbox'
+import './PhotoGallery.css'
 import Fullscreen from 'yet-another-react-lightbox/plugins/fullscreen'
 import LightboxButton from './LightboxButton'
 import Link from './Link'
@@ -21,12 +22,13 @@ function PhotoGalleryCBE() {
 
   return (
     <>
-      <header>
-        <a href="../k62" className="home">
+      <aside clasName="<sidebar">
+        <a href="/" className="back-home">
           k62
         </a>
-        <h1>Corinna Bernshaus</h1>
-      </header>
+        <h1 className="h1-artist-page">Corinna Bernshaus</h1>
+      </aside>
+
       <PhotoAlbum
         photos={photos_CBE}
         layout="rows"
@@ -53,8 +55,12 @@ function PhotoGallerySST() {
   return (
     <>
       <header>
-        <a href="../k62">k62</a>
-        <h1>Stephan Stüttgen</h1>
+        <div>
+          <a href="/" className="back-home">
+            k62
+          </a>
+        </div>
+        <h1 className="h1-artist-page">Stephan Stüttgen</h1>
       </header>
 
       <PhotoAlbum
@@ -83,9 +89,12 @@ function PhotoGalleryUUR() {
   return (
     <>
       <header>
-        <a href="../k62">❰ k62</a>
-        <div className="placeholder" />
-        <h1>Uscha Urbainski</h1>
+        <div>
+          <a href="/" className="back-home">
+            k62
+          </a>
+        </div>
+        <h1 className="h1-artist-page">Uscha Urbainski</h1>
       </header>
 
       <PhotoAlbum

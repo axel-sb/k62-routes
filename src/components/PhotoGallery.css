@@ -1,0 +1,51 @@
+.back-home {
+    font-family              : 'TravelingTypewriter';
+    font-size                : 5rem;
+    font-style               : italic;
+    font-weight              : 900;
+    color                    : #111;
+    text-decoration-color    : #c41547;
+    text-decoration-thickness: 1rem;
+    rotate                   : -10deg;
+    position                 : absolute;
+    left                     : 3rem;
+    top                      : 3rem;
+}
+
+.sidebar {
+    width: 30%
+}
+
+.h1-artist-page {
+    font-family: Oswald;
+    font-style : italic;
+    font-size  : 6rem;
+    font-weight: 700;
+    line-height: .95;
+    margin-top : 10rem;
+    margin-left: 0;
+    color      : var(--signature-color);
+    transform  : rotate(-10deg) translate(-36%, -5rem);
+    text-shadow: 1px 1px 1px #0001, 3px 3px 3px #c4154730;
+    text-align : right;
+    transition : 2s .3s;
+    will-change: transform;
+}
+
+.page header {
+    display: flex;
+    padding: 3rem;
+}
+
+.react-photo-album {
+    margin   : 0 auto;
+    max-width: 30vw;
+}
+
+.cbe .react-photo-album {
+    max-width: 30vw;
+}
+
+.uur .react-photo-album {
+    max-width: 50vw;
+}

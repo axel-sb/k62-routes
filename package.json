@@ -3,18 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@algolia/autocomplete-js": "^1.7.1",
+    "@algolia/autocomplete-plugin-algolia-insights": "^1.7.1",
+    "@algolia/autocomplete-plugin-query-suggestions": "^1.7.1",
+    "@algolia/autocomplete-theme-classic": "^1.7.1",
     "@mui/material": "^5.9.1",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "algoliasearch": "^4.14.1",
+    "algoliasearch": "^4.14.2",
     "instantsearch.js": "^4.43.1",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-instantsearch-dom": "^6.30.2",
     "react-instantsearch-hooks-web": "^6.30.2",
     "react-photo-album": "^1.15.0",
     "react-router-dom": "^6.4.0-pre.8",
     "react-scripts": "5.0.1",
+    "search-insights": "^2.2.1",
     "typed.js": "^2.0.12",
     "web-vitals": "^2.1.4",
     "yet-another-react-lightbox": "^1.9.6"
@@ -35,6 +42,10 @@
       "airbnb/hooks"
     ]
   },
+  "eslintIgnore": [
+    "node_modules",
+    "build/*"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
@@ -48,7 +59,8 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.19.0",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "eslint": "^8.20.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",

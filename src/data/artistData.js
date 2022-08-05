@@ -39,4 +39,4 @@ export default [
       link: 'https://en.wikipedia.org/wiki/species',
     },
   },
-];
+]

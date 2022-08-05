@@ -1,0 +1,170 @@
+[
+    {
+        "name": {
+            "full name": "Ricardo Cronin",
+            "firstName": "Ricardo",
+            "lastName": "Cronin",
+            "website": "https://freida.biz"
+        },
+        "category": [
+            "painting"
+        ],
+        "artistKey": "rcr",
+        "artistPage": "/net",
+        "artistImages": {
+            "title": "Fantastic Frozen Sausages",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "https://kiarra.name"
+    },
+    {
+        "name": {
+            "full name": "Harvey Smith",
+            "firstName": "Harvey",
+            "lastName": "Smith",
+            "website": "http://michel.biz"
+        },
+        "category": [
+            "painting",
+            "sculpture",
+            "photography"
+        ],
+        "artistKey": "hsm",
+        "artistPage": "/usr/include",
+        "artistImages": {
+            "title": "Ergonomic Soft Mouse",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "https://hans.biz"
+    },
+    {
+        "name": {
+            "full name": "Alejandro Carter",
+            "firstName": "Alejandro",
+            "lastName": "Carter",
+            "website": "http://favian.biz"
+        },
+        "category": [
+            "painting",
+            "sculpture",
+            "photography",
+            "painting"
+        ],
+        "artistKey": "aca",
+        "artistPage": "/tmp",
+        "artistImages": {
+            "title": "Incredible Granite Cheese",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "https://elisabeth.info"
+    },
+    {
+        "name": {
+            "full name": "Bethany Cassin",
+            "firstName": "Bethany",
+            "lastName": "Cassin",
+            "website": "http://matilde.biz"
+        },
+        "category": [
+            "painting",
+            "sculpture",
+            "photography",
+            "painting"
+        ],
+        "artistKey": "bca",
+        "artistPage": "/usr/lib",
+        "artistImages": {
+            "title": "Rustic Metal Table",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "https://eda.info"
+    },
+    {
+        "name": {
+            "full name": "Abel Hauck",
+            "firstName": "Abel",
+            "lastName": "Hauck",
+            "website": "https://adeline.biz"
+        },
+        "category": [
+            "painting"
+        ],
+        "artistKey": "aha",
+        "artistPage": "/usr/include",
+        "artistImages": {
+            "title": "Fantastic Wooden Towels",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "https://dallas.net"
+    },
+    {
+        "name": {
+            "full name": "Andrew Swift",
+            "firstName": "Andrew",
+            "lastName": "Swift",
+            "website": "https://seamus.info"
+        },
+        "category": [
+            "painting",
+            "sculpture",
+            "photography",
+            "painting"
+        ],
+        "artistKey": "asw",
+        "artistPage": "/etc/periodic",
+        "artistImages": {
+            "title": "Generic Fresh Sausages",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "https://keon.org"
+    },
+    {
+        "name": {
+            "full name": "Anthony West",
+            "firstName": "Anthony",
+            "lastName": "West",
+            "website": "http://watson.org"
+        },
+        "category": [
+            "painting",
+            "sculpture",
+            "photography",
+            "painting"
+        ],
+        "artistKey": "awe",
+        "artistPage": "/Applications",
+        "artistImages": {
+            "title": "Handmade Wooden Chicken",
+            "size": {
+                "width": "11",
+                "height": "22",
+                "length": "33"
+            }
+        },
+        "cardImage": "http://kenyon.name"
+    }
+]

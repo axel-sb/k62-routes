@@ -1,4 +1,5 @@
-h1 {
+/*h1 {
     font-family: 'TravelingTypewriter';
     margin: 0 auto;
-}
+    font-size: clamp(x-large, actual, xx-large);
+}*/

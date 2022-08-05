@@ -1,11 +1,13 @@
 import data from '../data/artistData'
 import ArtistCard from '../components/ArtistCard'
 import Header from '../components/Header'
-import '../App.css'
+import Search from '../components/Search.tsx'
+import '../components/Search.css'
 
 function Home() {
   return (
     <>
+      <Search />
       <Header />
       <div className="cards">
         {data.map((artist) => (

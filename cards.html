@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/Users/a/Dropbox/Documents_M/Projects/_web/assets/reset/reset.css" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+    <link rel="stylesheet" href="style.css" />
+    <title>cards</title>
+    <style>
+        html {
+            font-family: sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: inherit;
+        }
+
+        body {
+            max-width: 60rem;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        h1 {
+            margin-bottom: 1rem;
+        }
+
+        .cards>ul {
+            list-style: none;
+        }
+
+        .card+.card {
+            margin-top: 1.5rem;
+        }
+
+        @supports (display: grid) {
+            .cards>ul {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+                grid-column-gap: 1.5rem;
+                grid-row-gap: 1.5rem;
+            }
+
+            .card+.card {
+                margin-top: 0;
+            }
+        }
+
+        .card {
+            border: 1px solid;
+            border-radius: 0.25rem;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .card .text {
+            padding: 1rem;
+            flex: 1 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card p {
+            max-width: 60ch;
+        }
+
+        .card .img {
+            height: 6.5rem;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 1rem));
+        }
+
+        .card .img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: grayscale(100%);
+        }
+
+        .card a {
+            text-decoration: none;
+        }
+
+        .card a:focus {
+            outline: none;
+            text-decoration: underline;
+        }
+
+        .card:focus-within,
+        .card:hover {
+            box-shadow: 0 0 0 0.25rem;
+        }
+
+        .card:focus-within a:focus {
+            text-decoration: none;
+        }
+
+        .card small {
+            display: block;
+        }
+
+        .card .text>*+* {
+            margin-top: 0.75rem;
+        }
+
+        .card .text> :last-child {
+            margin-top: auto;
+            padding-top: 0.75rem;
+        }
+    </style>
+
+</head>
+
+<body data-kmwindow="SCREEN(Main,Right,-70%),SCREEN(Main,Top,20%),600,1200">
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Card Component Demo</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    </head>
+
+    <body>
+        <h1>Cards demo (redundant JS click on container)</h1>
+        <div class="cards">
+            <ul>
+                <li class="card">
+                    <div class="img"><img
+                            src="https://ik.imagekit.io/k62/uur/012.webp?tr=w-363,h-484:w-270,h-270,cm-extract,xc-150,yc-250"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href=" ">Uscha Urbainski</a></h2>
+                        <p>Commodo ut laborum fugiat aliqua eiusmod voluptate pariatur.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="
+                        https://ik.imagekit.io/k62/cbe/012.webp?tr=w-300,h-300:w-270,h-270,cm-extract,xc-20,yc-135"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">Corinna Bernshaus</a></h2>
+                        <p>Cupidatat tempor sint mollit in tempor ut fugiat excepteur laborum labore.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img
+                            src="https://ik.imagekit.io/k62/sst/001.webp?tr=w-330,h-440:w-270,h-270,cm-extract,xc-152,yc-200"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">More card</a></h2>
+                        <p>Eu dolore labore ad occaecat minim in minim ad ea commodo excepteur ullamco.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img
+                            src="https://ik.imagekit.io/k62/uur/012.webp?tr=w-363,h-484:w-270,h-270,cm-extract,xc-150,yc-250"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">Uscha Urbainski</a></h2>
+                        <p>Amet esse sunt ex officia ea ipsum veniam ad elit duis.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="
+                        https://ik.imagekit.io/k62/cbe/012.webp?tr=w-300,h-300:w-270,h-270,cm-extract,xc-20,yc-135"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">Corinna Bernshaus</a></h2>
+                        <p>Laboris adipisicing enim enim duis id magna in eu.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img
+                            src="https://ik.imagekit.io/k62/sst/001.webp?tr=w-330,h-440:w-270,h-270,cm-extract,xc-152,yc-200"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">The card to beat all cards</a></h2>
+                        <p>Non officia quis sint commodo reprehenderit consectetur ipsum ex eu.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img
+                            src="https://ik.imagekit.io/k62/uur/012.webp?tr=w-363,h-484:w-270,h-270,cm-extract,xc-150,yc-250"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">Your Mam's fave card</a></h2>
+                        <p>Dolore nisi deserunt quis occaecat sunt eiusmod exercitation nostrud ad dolore cupidatat
+                            exercitation minim.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="
+                        https://ik.imagekit.io/k62/cbe/012.webp?tr=w-300,h-300:w-270,h-270,cm-extract,xc-20,yc-135"
+                            alt=""></div>
+                    <div class="text">
+                        <h2><a href="#card-link">Corinna Bernshaus</a></h2>
+                        <p>Sunt deserunt ea sint enim laborum ut qui cupidatat esse sit labore ut.</p>
+                        <small>By Heydon Pickering</small>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script src=""></script>
+    </body>
+
+    </html>
+
+    <script></script>
+
+</body>
+
+</html>

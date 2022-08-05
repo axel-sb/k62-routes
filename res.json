@@ -1,0 +1,50 @@
+{
+    "displayImages": true,
+    "imageAttribute": "imageUrl",
+    "imagePrefix": null,
+    "imageSuffix": null,
+    "primaryAttribute": "category",
+    "renderMode": "preview",
+    "tagAttribute": "",
+    "hit": {
+        "artist": "Stephan Stüttgen",
+        "artistGallery": "/sst",
+        "fileName": "002.webp",
+        "imageUrl": "https://ik.imagekit.io/k62/tr:w-268h-400/sst/002.webp",
+        "title": "Verdeckt",
+        "category": "Painting",
+        "size": "149x94cm",
+        "technique": "Mischtechnik auf Leinwand",
+        "year": "2018",
+        "objectID": "1ba5e09f416cc5_dashboard_generated_id",
+        "_highlightResult": {
+            "artist": {
+                "value": "Stephan Stüttgen",
+                "matchLevel": "none",
+                "matchedWords": "[]"
+            },
+            "artistGallery": {
+                "value": "/sst",
+                "matchLevel": "none",
+                "matchedWords": "[]"
+            },
+            "title": {
+                "value": "Verdeckt",
+                "matchLevel": "none",
+                "matchedWords": "[]"
+            },
+            "category": {
+                "value": "Painting",
+                "matchLevel": "none",
+                "matchedWords": "[]"
+            },
+            "technique": {
+                "value": "Mischtechnik auf Leinwand",
+                "matchLevel": "none",
+                "matchedWords": "[]"
+            }
+        },
+        "__position": 8,
+        "withHighlighting": true
+    }
+}

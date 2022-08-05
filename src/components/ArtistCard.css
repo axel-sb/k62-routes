@@ -20,57 +20,28 @@
   transition           : 1s .2s;
 }
 
-/* .card:hover .card-left {
-  background: none;
-  transform : rotate(0deg) translate(0px, 0rem);
-  transition: transform 0.3s ease-in-out;
-} */
-
 /*%  .................... CARD - LEFT ...........................*/
 .card-left {
   display        : flex;
   align-items    : center;
   align-content  : space-around;
   background     : linear-gradient(254deg, transparent, rgb(0 0 0 / 4%));
-  color          : var(--signature-color);
   flex-wrap      : wrap;
   font-family    : Oswald;
-  font-size      : 6rem;
   height         : 20rem;
   justify-content: flex-end;
-  letter-spacing : 0rem;
-  line-height    : .9;
-  margin         : 0rem 0 0 -100%;
+  margin         : 0 0 0 -100%;
   text-align     : right;
   width          : 100vw;
-  will-change    : transform;
 }
 
 .card-left>a {
-  color                       : inherit;
-  font-weight                 : 200;
-  /* text-decoration          : none!important; */
-  /* text-decoration-color    : #00000080 !important;
-  transition                  : text-decoration 500ms 50ms;
-  text-decoration             : underline;
-  text-decoration-style       : solid;
-  text-decoration-thickness   : 2.5rem;
-  text-underline-offset       : -1rem; */
-  letter-spacing              : .1rem;
+  color          : var(--signature-color);
   transform                   : rotate(-10deg);
-  transition                  : 1s .2s;
+  transition                  : 2s .3s;
 }
 
-/* .card-left>a:hover {
-  border-bottom  : 2.5rem solid #00000080;
-  /*text-deco-col only works on link element*/
-/*
-  text-decoration: none !important;
-  transform      : rotate(0deg) translate(0px, -2rem);
-  transition     : transform 1s;
-} */
-
-.card-left::after {
+/* .card-left::after {
   position  : fixed;
   top       : 0%;
   left      : 51%;
@@ -81,11 +52,6 @@
   transform : rotate(-10deg) translate(-52em, 5rem);
   width     : 50%;
   z-index   : -1;
-}
-
-/* .card-left:hover::after {
-  transform : rotate(0deg);
-  transition: transform 1s;
 } */
 
 /*%  ......................................................*/
@@ -96,21 +62,36 @@ h3 {
   font-weight: 700;
   line-height: .95;
   color      : #c41547;
-  text-shadow: 1px 1px 1px #0001, 3px 3px 3px #c4154710;
+  text-shadow: 1px 1px 1px #0001, 3px 3px 3px #c4154730;
   margin     : 0;
   text-align : right;
-  transition : 1s .2s;
+  transition : 2s .3s;
+  will-change: transform;
 }
 
-.card:hover h3 {
-  scale       : 1.25;
-  text-shadow : 5px 7px 6px #aaa;
-  /* animation: textshadow 1s .2s ease-in-out forwards; */
-  transition  : 1s .2s;
+h3 {
+  letter-spacing: 0;
+  transition    : scale 2s .2s ease-in-out, font-weight 2s .2s ease-in-out, letter-spacing 3s 2s ease-in-out, text-shadow 2s .2s ease-in-out;
+  ;
 }
 
 h3 div {
-  font-weight: 100;
+  font-weight   : 100;
+  letter-spacing: 0;
+  transition    : scale 2s .2s ease-in-out, font-weight 2s .2s ease-in-out, letter-spacing 2s .2s ease-in-out, text-shadow 2s .2s ease-in-out;
+}
+
+.card:hover h3 {
+  scale         : 1.25;
+  text-shadow   : 5px 7px 6px #aaa;
+  letter-spacing: 1rem;
+  font-weight   : 100;
+}
+
+.card:hover h3 div {
+  text-shadow   : 5px 7px 6px #aaa;
+  font-weight   : 700;
+  letter-spacing: 0rem;
 }
 
 .card:hover .card-left>a {
@@ -151,7 +132,7 @@ div.card-right>img {
   transition: 1s;
   width     : 20rem;
   z-index   : 1;
-  transition: all 1s .2s;
+  transition: all 2s .2s ease-in-out;
 }
 
 .card:hover .card-right>img {

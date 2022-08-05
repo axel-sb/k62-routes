@@ -1,0 +1,1017 @@
+// Javascript Query
+
+index.search("",
+{
+    "analytics": false,
+    "attributesToRetrieve": [
+        "*"
+    ],
+    "attributesToSnippet": [
+        "*:20"
+    ],
+    "enableABTest": false,
+    "explain": [
+        "*"
+    ],
+    "facets": [
+        "*"
+    ],
+    "getRankingInfo": true,
+    "hitsPerPage": 10,
+    "maxValuesPerFacet": 100,
+    "page": 0,
+    "responseFields": [
+        "*"
+    ],
+    "snippetEllipsisText": "…"
+});
+
+
+// JSON Answer
+{
+    "hits": [
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "fileName": "012.webp",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-280h-400/sst/012.webp",
+            "title": "Revolution = Umkehr",
+            "category": "Painting",
+            "size": "145x100cm",
+            "year": "2018",
+            "objectID": "7e0b5dc84eabe_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "fileName": {
+                    "value": "012.webp",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-280h-400/sst/012.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Revolution = Umkehr",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "145x100cm",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2018",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Revolution = Umkehr",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 13,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "fileName": "013.webp",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-300h-400/sst/013.webp",
+            "title": "Mona Lisa II",
+            "category": "Painting",
+            "size": "70x50cm",
+            "year": "2020",
+            "objectID": "5feacb83221d5_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "fileName": {
+                    "value": "013.webp",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-300h-400/sst/013.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Mona Lisa II",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "70x50cm",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2020",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Mona Lisa II",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 12,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-268h-400/sst/004.webp",
+            "title": "Fußbad",
+            "category": "Painting",
+            "size": "146x95cm",
+            "technique": "Mischtechnik auf Leinwand",
+            "year": "2017",
+            "objectID": "5348d91ce096b_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-268h-400/sst/004.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Fußbad",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "146x95cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2017",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Fußbad",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 11,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "fileName": "003webp",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-252h-400/sst/003.webp",
+            "title": "Vision I",
+            "category": "Painting",
+            "size": "200x125cm",
+            "technique": "Mischtechnik auf Leinwand",
+            "year": "2015-2017",
+            "objectID": "44751685d6175_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "fileName": {
+                    "value": "003webp",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-252h-400/sst/003.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Vision I",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "200x125cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2015-2017",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Vision I",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 10,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-284h-400/sst/005.webp",
+            "title": "Prophet",
+            "category": "Painting",
+            "size": "135x95cm",
+            "technique": "Mischtechnik auf Leinwand ",
+            "year": "2020",
+            "objectID": "31e762462b271_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-284h-400/sst/005.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Prophet",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "135x95cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand ",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2020",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Prophet",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand ",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 9,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-260h-400/sst/008.webp",
+            "title": "3 Türme",
+            "category": "Painting",
+            "size": "200x125cm",
+            "technique": "Mischtechnik auf Leinwand",
+            "year": "2018",
+            "objectID": "1ee088443d34d4_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-260h-400/sst/008.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "3 Türme",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "200x125cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2018",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "3 Türme",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 8,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-276h-400/sst/006.webp",
+            "title": "Coronatafel",
+            "category": "Painting",
+            "size": "143x92cm",
+            "technique": "Kreide auf Tafel",
+            "year": "2020",
+            "objectID": "1bc45e0c44265f_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-276h-400/sst/006.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Coronatafel",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "143x92cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Kreide auf Tafel",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2020",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Coronatafel",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Kreide auf Tafel",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 7,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "fileName": "002.webp",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-268h-400/sst/002.webp",
+            "title": "Verdeckt",
+            "category": "Painting",
+            "size": "149x94cm",
+            "technique": "Mischtechnik auf Leinwand",
+            "year": "2018",
+            "objectID": "1ba5e09f416cc5_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "fileName": {
+                    "value": "002.webp",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-268h-400/sst/002.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Verdeckt",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "149x94cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2018",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Verdeckt",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 6,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "fileName": "001.webp",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-300h-400/sst/001.webp",
+            "title": "Mona Lisa I",
+            "category": "Painting",
+            "size": "65x47cm",
+            "technique": "Mischtechnik auf Leinwand",
+            "year": "2020",
+            "objectID": "1aabdfa2a06a2e_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "fileName": {
+                    "value": "001.webp",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-300h-400/sst/001.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Mona Lisa I",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "65x47cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2020",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Mona Lisa I",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Painting",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 5,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "artist": "Stephan Stüttgen",
+            "artistGallery": "/sst",
+            "fileName": "014,.webp",
+            "imageUrl": "https://ik.imagekit.io/k62/tr:w-260h-400/sst/014.webp",
+            "title": "Betroffen",
+            "size": "200x  cm",
+            "technique": "Mischtechnik auf Leinwand",
+            "year": "2099",
+            "objectID": "18e58faa0d607a_dashboard_generated_id",
+            "_snippetResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none"
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none"
+                },
+                "fileName": {
+                    "value": "014,.webp",
+                    "matchLevel": "none"
+                },
+                "imageUrl": {
+                    "value": "https://ik.imagekit.io/k62/tr:w-260h-400/sst/014.webp",
+                    "matchLevel": "none"
+                },
+                "title": {
+                    "value": "Betroffen",
+                    "matchLevel": "none"
+                },
+                "size": {
+                    "value": "200x  cm",
+                    "matchLevel": "none"
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none"
+                },
+                "year": {
+                    "value": "2099",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "artist": {
+                    "value": "Stephan Stüttgen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "artistGallery": {
+                    "value": "/sst",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "title": {
+                    "value": "Betroffen",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "technique": {
+                    "value": "Mischtechnik auf Leinwand",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 4,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        }
+    ],
+    "nbHits": 14,
+    "page": 0,
+    "nbPages": 2,
+    "hitsPerPage": 10,
+    "facets": {
+        "artist": {
+            "Stephan Stüttgen": 14
+        },
+        "category": {
+            "Painting": 13
+        }
+    },
+    "exhaustiveFacetsCount": true,
+    "exhaustiveNbHits": true,
+    "exhaustiveTypo": true,
+    "query": "",
+    "params": "analytics=false&attributesToRetrieve=%5B%22*%22%5D&attributesToSnippet=%5B%22*%3A20%22%5D&enableABTest=false&explain=%5B%22*%22%5D&facets=%5B%22*%22%5D&getRankingInfo=true&highlightPostTag=%3C%2Fais-highlight-0000000000%3E&highlightPreTag=%3Cais-highlight-0000000000%3E&hitsPerPage=10&maxValuesPerFacet=100&page=0&query=&responseFields=%5B%22*%22%5D&snippetEllipsisText=%E2%80%A6&tagFilters=",
+    "index": "catalogue",
+    "serverUsed": "c18-de-3.algolia.net",
+    "indexUsed": "catalogue",
+    "parsedQuery": "",
+    "timeoutCounts": false,
+    "timeoutHits": false,
+    "explain": {
+        "match": {
+            "alternatives": []
+        },
+        "params": {
+            "client": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "maxValuesPerFacet": 100,
+                "responseFields": [
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "exhaustiveFacetValues",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "params",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": [
+                    "match.alternatives",
+                    "params.client",
+                    "params.apiKey",
+                    "params.abTest",
+                    "params.rules",
+                    "params.final"
+                ]
+            },
+            "apiKey": {},
+            "abTest": {},
+            "rules": {},
+            "final": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "maxValuesPerFacet": 100,
+                "responseFields": [
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "exhaustiveFacetValues",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "params",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": [
+                    "match.alternatives",
+                    "params.client",
+                    "params.apiKey",
+                    "params.abTest",
+                    "params.rules",
+                    "params.final"
+                ]
+            }
+        }
+    },
+    "renderingContent": {
+        "facetOrdering": {
+            "facets": {
+                "order": [
+                    "artist"
+                ]
+            }
+        }
+    },
+    "processingTimeMS": 1
+}
